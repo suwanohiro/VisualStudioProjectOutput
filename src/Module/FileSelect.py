@@ -7,7 +7,7 @@ class FileSelect:
 
     def OpenFileSelectWindow():
         typ = [(".slnファイル", "*.sln")]
-        dir = "C:\Local\cpp\test2"
+        dir = "C:\\"
         fle = filedialog.askopenfilename(filetypes=typ, initialdir=dir)
         return fle
 
